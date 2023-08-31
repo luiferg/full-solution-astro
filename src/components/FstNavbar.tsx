@@ -8,10 +8,9 @@ import {
   NavbarMenu,
   NavbarMenuItem,
   Link,
+  Button,
 } from '@nextui-org/react'
 import { useState } from 'react'
-import { motion } from 'framer-motion'
-import { Image } from 'astro:assets'
 
 const FstNavbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -58,6 +57,9 @@ const FstNavbar = () => {
       </NavbarContent>
       <NavbarContent justify='end'>
         <NavbarItem>
+          <Button href='/#contact' radius='full' as={Link} className='bg-fst-orange-400 text-white'>
+          Contact
+          </Button>
         </NavbarItem>
         <NavbarItem className='max-sm:hidden'>
         </NavbarItem>
