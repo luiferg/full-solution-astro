@@ -1,9 +1,16 @@
 ---
 import FstNavbar from '../components/FstNavbar';
+import '../styles/global.css';
+import i18next, { t } from 'i18next';
+import {
+  Trans,
+  HeadHrefLangs,
+  LanguageSelector,
+} from 'astro-i18next/components';
 const { title, description } = Astro.props;
 ---
 
-<html lang='en'>
+<html lang={i18next.language}>
   <head>
     <meta charset='utf-8' />
     <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
@@ -12,10 +19,17 @@ const { title, description } = Astro.props;
     <meta name='description' content={description} />
     <meta title={title} />
     <title>{title}</title>
+    <HeadHrefLangs />
   </head>
-  <body class='flex flex-col items-center'>
+  <body
+    class='flex flex-col items-center font-primary text-base text-fst-black'
+  >
     <main class='w-full flex flex-col items-center'>
-      <FstNavbar />
+      <FstNavbar>
+        <LanguageSelector
+          class='bg-gray-50 text-sm rounded-lg focus:ring-fsborder-fst-orange-400 focus:border-fst-orange-400 block w-full p-2.5'
+        />
+      </FstNavbar>
       <slot />
     </main>
   </body>

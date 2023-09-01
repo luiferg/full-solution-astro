@@ -1,6 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/fonts/open-sans.ttf');
+  font-display: block;
+}
 
 @font-face {
   font-family: 'Nevo';
-  src: url('../../public/fonts/nevo-medium.otf');
-  font-display: swap;
+  font-style: normal;
+  src: url('/fonts/nevo-medium.otf');
+  font-display: block;
 }

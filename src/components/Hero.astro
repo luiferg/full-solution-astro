@@ -1,7 +1,64 @@
 ---
+import { Image } from 'astro:assets';
 import SectionWrapper from './SectionWrapper.astro';
+import i18next, { t } from 'i18next';
+import { LanguageSelector } from 'astro-i18next/components';
+const locale = i18next.language;
+
+const solutions =
+  locale === 'es'
+    ? ['Solution', 'Compromiso', 'Dedicación', 'Servicio']
+    : ['Solution', 'Compromise', 'Dedication', 'Service'];
 ---
 
 <SectionWrapper>
-  <h1>This is the hero section</h1>
+  <div
+    class='flex flex-col-reverse lg:flex-row w-full justify-between gap-4 md:gap-8'
+  >
+    <div
+      class='flex flex-col w-full lg:w-[50%] items-center pointer-events-none select-none'
+    >
+      <div class='relative'>
+        <Image
+          src='/fst-pentagon.svg'
+          height={50}
+          width={50}
+          alt='Full Solution Pentagon'
+          class='w-9 md:w-14 h-auto rotate-45 absolute top-0 left-0'
+        />
+        <Image
+          src='/fst-b-pentagon.svg'
+          height={50}
+          width={50}
+          alt='Full Solution Pentagon'
+          class='w-5 md:w-10 h-auto -rotate-12 absolute bottom-0 left-0'
+        />
+        <Image
+          src='/fst-b-pentagon.svg'
+          height={50}
+          width={50}
+          alt='Full Solution Pentagon'
+          class='w-7 md:w-10 h-auto rotate-90 absolute top-8 right-5'
+        />
+        <Image
+          src='/fst-hero-section.webp'
+          height={900}
+          width={900}
+          alt='Full Solution Hero Section Image'
+          class='w-60 md:w-96 lg:w-[480px] h-auto'
+        />
+      </div>
+    </div>
+    <div
+      class='flex flex-col w-full lg:w-[50%] flex-wrap justify-center items-start text-fst-black gap-4 md:gap-8 transition-all'
+    >
+      <h1
+        class='text-fst-orange-400 font-secondary text-4xl md:text-6xl font-bold overflow-hidden w-full inline-flex justify-center lg:justify-start'
+      >
+        Full
+        <span class='text-fst-grey'>{solutions[2]}</span>
+      </h1>
+      <p>{t('HeroSection.description')}</p>
+    </div>
+  </div>
 </SectionWrapper>

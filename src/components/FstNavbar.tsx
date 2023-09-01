@@ -1,4 +1,3 @@
-'use client'
 import {
   Navbar,
   NavbarBrand,
@@ -12,7 +11,12 @@ import {
 } from '@nextui-org/react'
 import { useState } from 'react'
 
-const FstNavbar = () => {
+type FstNavbarProps = {
+  children: React.ReactNode;
+};
+
+
+const FstNavbar: React.FC<FstNavbarProps> = ({ children }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const links = [
@@ -57,11 +61,12 @@ const FstNavbar = () => {
       </NavbarContent>
       <NavbarContent justify='end'>
         <NavbarItem>
-          <Button href='/#contact' radius='full' as={Link} className='bg-fst-orange-400 text-white'>
-          Contact
-          </Button>
+          {children}
         </NavbarItem>
         <NavbarItem className='max-sm:hidden'>
+        <Button href='/#contact' radius='full' as={Link} className='bg-fst-orange-400 text-white'>
+          Contact
+          </Button>
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu>

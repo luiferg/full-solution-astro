@@ -1,0 +1,87 @@
+{
+  "Navbar": {
+    "portfolio": "Portafolio",
+    "blog": "Blog",
+    "about": "Sobre nosotros",
+    "contact": "Contáctanos"
+  },
+  "HeroSection": {
+    "title": "Ahora tu ISP tiene un verdadero aliado",
+    "description": "Ofrecemos productos que cumplen con los mayores estándares de calidad, siempre brindado el mejor soporte en las compras y servicios obtenidos por nuestro clientes.",
+    "ftth": "Soluciones FTTH",
+    "iptv": "Soluciones IPTV",
+    "ftth-description": "Distribución de equipos activos y pasivos para redes FTTH.",
+    "iptv-description": "Equipos y soporte para servicios de IPTV."
+  },
+  "ServicesSection": {
+    "title": "Ofrecemos servicios de calidad",
+    "description": "Contamos con una serie de servicios óptimos para la gestión de redes FTTH (Fiber To The Home) e IPTV (Televisión por IP).",
+    "card-1": "Gestión y Autorización de Usuarios",
+    "card-1-description": "Brindamos software para llevar un control riguroso y detallado de los usuarios de nuestros clientes, con la intención de facilitar sus labores de ISP.",
+    "card-2": "Interoperabilidad en tu Sistema",
+    "card-2-description": "Diseñamos terminales ópticas y personalizamos firmware interoperable.",
+    "card-3": "Laboratorio Especializado",
+    "card-3-description": "Contamos con un Laboratorio de FTTH y GPON, donde se busca generar nuevas alternativas para el mercado de la región que se adapten a los cambios y exigencias de clientes y usuarios.",
+    "card-4": "Nuestro Clientes a la Vanguardia",
+    "card-4-description": "Laboratorio de equipos activos, en las instalaciones de nuestros proveedores también desarrollamos opciones que estén a la altura de las expectativas del mercado.",
+    "card-5": "FullSolution Training",
+    "card-5-description": "Orientamos nuestros esfuerzos con cursos a nivel empresarial e individual, que permitan descubrir a sus asistentes la mejor ruta para gestión de sus negocios optimizando al máximo sus recursos.",
+    "card-6": "A Nivel Nacional",
+    "card-6-description": "Llegamos a toda Colombia, con la intención de facilitar y mejorar el servicio prestado a nuestros clientes.",
+    "close": "Cerrar"
+  },
+  "ProductsSection": {
+    "title": "Productos Que Conectan",
+    "description": "Explora nuestra gama incomparable de productos de telecomunicaciones, desde ONTs y OLTs hasta soluciones de vanguardia. Conéctate al futuro hoy.",
+    "all-tab": "Todos",
+    "onus-tab": "ONUs",
+    "active-devices-tab": "Equipos Activos",
+    "passive-devices-tab": "Equipos Pasivos"
+  },
+  "Footer": {
+    "newsletter": "Sé el primero en enterarte de nuestras novedades",
+    "email": "Correo electrónico",
+    "subscribe": "Suscribirse",
+    "terms": "Al suscribirte aceptas que te enviemos información sobre nuestros productos y servicios. Puedes cancelar tu suscripción en cualquier momento. Para más información consulta nuestra",
+    "privacy-policy": "Política de privacidad.",
+    "rights": "Todos los derechos reservados."
+  },
+  "About": {
+    "title": "Sobre Nosotros",
+    "subtitle-1": "Ya son 15 años ",
+    "subtitle-2": "conectando el mundo con soluciones de telecomunicaciones de vanguardia.",
+    "description": "Transformamos ISP y Cable Operadores a nivel global con soluciones llave en mano, desde banda ancha ultrarrápida hasta TV OTT/IPTV y Telefonía IP de última generación.",
+    "description-2": "Nuestro éxito se basa en alianzas estratégicas que nos posicionan como líderes de cobertura y crecimiento, listos para conquistar el mercado latinoamericano con productos adaptados a cada necesidad."
+  },
+  "Team": {
+    "title": "Nuestro Equipo",
+    "position-1": "Cofundador y CEO",
+    "position-2": "Ingeniero de Telecomunicaciones",
+    "position-3": "Comercial",
+    "position-4": "Ingeniero de Investigación y Desarrollo"
+  },
+  "Blog": {
+    "title": "Novedades FST",
+    "subtitle": "Novedades y noticias de la industria de las telecomunicaciones",
+    "post-description": "La Feria Internacional de telecomunicaciones y tecnologías convergentes, líder en Latinoamérica, destaca por sus muestras comerciales, tendencias y adelantos tecnológicos.",
+    "post-date": "Publicado el 12 de Julio de 2021",
+    "read": "Leer más"
+  },
+  "Contact": {
+    "title": "Contáctanos",
+    "subtitle": "¿Tienes alguna pregunta? No dudes en ponerte en contacto.",
+    "card-title": "Información de Contacto",
+    "card-description": "Puedes completar el formulario de contacto o ponerte en contacto a través del medio que prefieras.",
+    "firstname": "Nombre",
+    "lastname": "Apellido",
+    "phone": "Teléfono",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "radio-group": "¿En qué estás interesado?",
+    "option-1": "IPTV",
+    "option-2": "FTTH",
+    "option-3": "GPON",
+    "option-4": "Otro",
+    "send": "Enviar"
+  }
+}

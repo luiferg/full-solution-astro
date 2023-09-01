@@ -1,0 +1,87 @@
+{
+  "Navbar": {
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "about": "About Us",
+    "contact": "Contact Us"
+  },
+  "HeroSection": {
+    "title": "Now your ISP has a true ally",
+    "description": "We offer products that meet the highest quality standards, always providing the best support in purchases and services obtained by our customers.",
+    "ftth": "FTTH solutions",
+    "iptv": "IPTV solutions",
+    "ftth-description": "Distribution of active and passive equipment for FTTH networks.",
+    "iptv-description": "Equipment and support for IPTV services."
+  },
+  "ServicesSection": {
+    "title": "We offer quality services",
+    "description": "We have a series of optimal services for the management of FTTH (Fiber To The Home) and IPTV (IP Television) networks.",
+    "card-1": "User Management and Registration",
+    "card-1-description": "We provide software to keep a rigorous and detailed control of our clients' users, with the intention of facilitating their ISP work.",
+    "card-2": "Interoperability in Your System",
+    "card-2-description": "We design optical terminals and customize interoperable firmware.",
+    "card-3": "Specialized Laboratory",
+    "card-3-description": "We have an FTTH and GPON Laboratory, where we seek to generate new alternatives for the market in the region that adapt to the changes and demands of customers and users.",
+    "card-4": "Our Clients at the Cutting Edge",
+    "card-4-description": "Laboratory of active equipment, in the facilities of our suppliers we also develop options that are up to market expectations.",
+    "card-5": "FullSolution Training",
+    "card-5-description": "We direct our efforts with courses at the business and individual level, which allow your attendees to discover the best route to manage their businesses optimizing their resources to the maximum.",
+    "card-6": "All Over the Country",
+    "card-6-description": "We reach all of Colombia, with the intention of facilitating and improving the service provided to our customers.",
+    "close": "Close"
+  },
+  "ProductsSection": {
+    "title": "Products That Connect",
+    "description": "Discover our unparalleled range of telecommunications products, from ONTs and OLTs to state-of-the-art solutions. Connect to the future today.",
+    "all-tab": "All",
+    "onus-tab": "ONUs",
+    "active-devices-tab": "Active Devices",
+    "passive-devices-tab": "Passive Devices"
+  },
+  "Footer": {
+    "newsletter": "Be the first to know about our news and promotions.",
+    "email": "Enter your email",
+    "subscribe": "Subscribe",
+    "terms": "By subscribing you agree to us sending you information about our products and services. You can cancel your subscription at any time. For more information see our",
+    "privacy-policy": "Privacy Policy.",
+    "rights": "All rights reserved."
+  },
+  "About": {
+    "title": "About Us",
+    "subtitle-1": "We've been 15 years ",
+    "subtitle-2": "connecting the world with cutting-edge telecommunications solutions.",
+    "description": "We revolutionize the ISP and Cable Operator landscape worldwide, offering turnkey solutions ranging from lightning-fast broadband to cutting-edge OTT/IPTV and IP Telephony.",
+    "description-2": "Our achievements are built upon strategic alliances that project us as leaders in coverage and growth, poised to venture into the Latin American market with products tailored to every need."
+  },
+  "Team": {
+    "title": "Our Team",
+    "position-1": "CEO and co-founder",
+    "position-2": "Telecommunications Engineer",
+    "position-3": "Sales Representative",
+    "position-4": "Research and Development Engineer"
+  },
+  "Blog": {
+    "title": "The FST Journal",
+    "subtitle": "Updates and News from the Telecommunications Industry",
+    "post-description": "The prestigious International Fair of Telecommunications and Convergent Technologies, a leader in Latin America, stands out for its commercial exhibits, trends, and technological advancements.",
+    "post-date": "Published on July 12, 2021",
+    "read": "Read more"
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "subtitle": "Do you have any questions? Do not hesitate and get in touch.",
+    "card-title": "Contact Information",
+    "card-description": "You can fill out the contact form or get in touchthrough the medium of your preference.",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Message",
+    "radio-group": "What are you interested in?",
+    "option-1": "IPTV",
+    "option-2": "FTTH",
+    "option-3": "GPON",
+    "option-4": "Other",
+    "send": "Send"
+  }
+}

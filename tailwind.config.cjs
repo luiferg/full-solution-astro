@@ -16,6 +16,7 @@ module.exports = {
         'fst-black': '#141414',
       },
       fontFamily: {
+        primary: ['Open Sans', 'sans-serif'],
         secondary: ['Nevo', 'sans-serif'],
       },
 		},
